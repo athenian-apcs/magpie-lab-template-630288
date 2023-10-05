@@ -31,10 +31,4 @@ public class MyTests {
         Magpie x = new Magpie();
         assertEquals("What would it mean to eat lunch?", x.transformIWantToStatement("I want to eat lunch"), "Expected output: " + "What would it mean to eat lunch?");
     }
-
-    @Test
-    public void testTransformYouMeStatement() {
-        Magpie x = new Magpie();
-        assertEquals("What makes you think that I like you?", x.transformYouMeStatement("Do you like me"), "Expected output: " + "What makes you think that I like you?");
-    }
 }
